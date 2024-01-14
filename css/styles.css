@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1440px;
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -66,6 +67,10 @@ header{
     margin-top: 82px;
     margin-left: 120px;
 }
+.camera-img img{
+width: 100%;
+    
+}
 
 
 
@@ -82,5 +87,23 @@ header{
     }
     .nav-content ul li a{
         margin-right: 17px;
+    }
+    .influencer-container{
+        flex-direction: column-reverse;
+    }
+    .camera-img{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    
+}
+
+/* tablet device */
+@media screen and (min-width:576px) and (max-width:750px) {
+    .nav-section{
+        flex-direction: column;
+    }
+    .influencer-container{
+        flex-direction: column-reverse;
     }
 }
