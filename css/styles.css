@@ -10,6 +10,17 @@ body{
     font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+.btn-primary{
+    border-radius: 40px;
+    background: #E02C6D;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.fa-solid {
+    margin-left: 10px;
+}
 header{
     margin: 85px 120px 0 120px;
     background: #FFF;
@@ -39,7 +50,22 @@ header{
     font-weight: 600;
 }
 
-
+.influencer-container{
+    display: flex;
+}
+.influencer-content{
+    
+    margin-top: 145px;
+}
+.influencer-content h3{
+    color: #3A3A3A;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.camera-img{
+    margin-top: 82px;
+    margin-left: 120px;
+}
 
 
 
