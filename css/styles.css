@@ -72,6 +72,14 @@ width: 100%;
     
 }
 
+/* Advertise styles */
+.addvertise-container{
+    margin: 100px 125px 0 125px;
+    
+}
+.addvertise-container .add-img img{
+    padding: 30px;
+}
 
 
 
